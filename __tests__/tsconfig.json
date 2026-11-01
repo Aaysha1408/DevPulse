@@ -1,0 +1,9 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "types": ["jest", "node", "@testing-library/jest-dom"],
+    "noEmit": true
+  },
+  "include": ["**/*.ts", "**/*.tsx"]
+}

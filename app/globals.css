@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+/* Ensure Tailwind scans app, components, and lib for class names */
+@source "../app";
+@source "../components";
+@source "../lib";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+    'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+    'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Smooth transitions - plain CSS to avoid @apply utility resolution in v4 */
+.transition-smooth {
+  transition: all 0.2s ease-in-out;
+}
+
+.glass {
+  background-color: rgb(255 255 255 / 0.8);
+  backdrop-filter: blur(16px);
+}

@@ -1,0 +1,74 @@
+{
+    "stocks": [
+      {
+        "id": "1",
+        "symbol": "AAPL",
+        "name": "Apple Inc.",
+        "price": 189.45,
+        "previousClose": 188.75,
+        "change": 0.70,
+        "changePercent": 0.37,
+        "volume": 52500000,
+        "marketCap": 2950000000000,
+        "pe": 28.5,
+        "high52Week": 199.62,
+        "low52Week": 124.17
+      },
+      {
+        "id": "2",
+        "symbol": "GOOGL",
+        "name": "Alphabet Inc.",
+        "price": 140.23,
+        "previousClose": 139.81,
+        "change": 0.42,
+        "changePercent": 0.30,
+        "volume": 18200000,
+        "marketCap": 1750000000000,
+        "pe": 26.8,
+        "high52Week": 151.94,
+        "low52Week": 102.21
+      },
+      {
+        "id": "3",
+        "symbol": "MSFT",
+        "name": "Microsoft Corporation",
+        "price": 378.91,
+        "previousClose": 376.04,
+        "change": 2.87,
+        "changePercent": 0.76,
+        "volume": 21500000,
+        "marketCap": 2820000000000,
+        "pe": 32.5,
+        "high52Week": 425.89,
+        "low52Week": 245.10
+      },
+      {
+        "id": "4",
+        "symbol": "AMZN",
+        "name": "Amazon.com Inc.",
+        "price": 175.34,
+        "previousClose": 174.12,
+        "change": 1.22,
+        "changePercent": 0.70,
+        "volume": 42300000,
+        "marketCap": 1820000000000,
+        "pe": 58.9,
+        "high52Week": 188.65,
+        "low52Week": 94.15
+      },
+      {
+        "id": "5",
+        "symbol": "NVDA",
+        "name": "NVIDIA Corporation",
+        "price": 498.52,
+        "previousClose": 493.25,
+        "change": 5.27,
+        "changePercent": 1.07,
+        "volume": 35800000,
+        "marketCap": 1230000000000,
+        "pe": 64.2,
+        "high52Week": 873.74,
+        "low52Week": 279.26
+      }
+    ]
+  }
